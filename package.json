@@ -1,0 +1,15 @@
+{
+  "name": "caption-reading-speed",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Flag subtitle cues that exceed a user-specified characters-per-second limit.",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./transform.mjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
